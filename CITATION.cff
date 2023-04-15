@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Sitani"
+  given-names: "Divya"
+  
+  orcid: "https://orcid.org/0000-0001-5138-6108"
+title: "RBHS_Sitani"
+version: 1.0.0
+#doi: 10.5281/zenodo.1234
+date-released: 2023-04-15
+url: "https://github.com/Divya1205/RBHS_Sitani"
