@@ -25,9 +25,9 @@ All the packages used for RBHS.
 
 ## File organisation: <br>
 - **Generating baseline results using original data and PCA**
-["PCA_baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/PCA_baseline.ipynb) <br>:
+- ["PCA_baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/PCA_baseline.ipynb) <br>:
 This jupyter notebook can be used to generate the PCA baseline results that are used to compare the efficacy of RBHS with PCA in the paper https://doi.org/10.1002/prot.26047.
-["RandomForestClassifier_Baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/RandomForestClassifier_Baseline.ipynb) <br>:
+-["RandomForestClassifier_Baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/RandomForestClassifier_Baseline.ipynb) <br>:
 This jupyter notebook can be used for training and hyperparameter tuning Random forest classifier on HB-34.xls dataset without any preprocessing. It can then be used for testing the tuned random forest classifier on BID-18.xlsx without any preprocessing done on it.
 
 - **Results for RBHS+classifiers**
