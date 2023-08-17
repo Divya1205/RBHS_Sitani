@@ -12,14 +12,15 @@ Proteins often exert their function by binding to other cellular partners. The h
 
 
 ## Data provided: 
+ - **Training Data** is at:<br>
+["train_HB34.xls"](https://github.com/Divya1205/RBHS_Sitani/blob/master/train_HB34.xls) <br>
 train_HB34.xls is the file used for training the classifiers. It contains 313 rows indicating 313 interface residues and 59 columns, where 1-58 columns are features and column 59 is the label values.
-
+- **Test Data** is at:<br>
+["test_BID18.xlsx"](https://github.com/Divya1205/RBHS_Sitani/blob/master/test_BID18.xlsx) <br>
 test_BID18.xlsx is the independent test set file. It contains 126 rows indicating 126 interface residues and 59 columns, where 1-58 columns are features and column 59 is the label values. 
 
-## Environment file:
+## Environment file is at:<br>
+["HotSpots.yml"](https://github.com/Divya1205/RBHS_Sitani/blob/master/HotSpots.yml) <br>:
 
 
 ## Recommended software:
-* Fiji or Napari
-* If programming in Python, install scikit-image, opencv, Tensorflow, PyTorch
-* If programming in MATLAB, install image processing toolbox
