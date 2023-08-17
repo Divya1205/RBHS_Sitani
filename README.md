@@ -30,27 +30,62 @@ All the packages used for RBHS.
 ["PCA_baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/PCA_baseline.ipynb) <br>:
 This jupyter notebook can be used to generate the PCA baseline results that are used to compare the efficacy of RBHS with PCA in the paper https://doi.org/10.1002/prot.26047.
 
-- **Random Forests Classifier Baseline results** is at :<br>
+- **Random Forests Classifier Baseline results** are at :<br>
 ["RandomForestClassifier_Baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/RandomForestClassifier_Baseline.ipynb) <br>:
 This jupyter notebook can be used for training and hyperparameter tuning Random forest classifier on HB-34.xls dataset without any preprocessing. It can then be used for testing the tuned random forest classifier on BID-18.xlsx without any preprocessing done on it.
 
-- **Support Vector Machine Baseline results** is at :<br>
+- **Support Vector Machine Baseline results** are at :<br>
 ["gridsearchSVM_Baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/gridsearchSVM_Baseline.ipynb) <br>:
 This jupyter notebook can be used for training and hyperparameter tuning SVM classifier on HB-34.xls dataset without any preprocessing. It can then be used for testing the hyperparameter-tuned SVM classifier on BID-18.xlsx without any preprocessing done on it.
 
-- **Gradient Boosting Machine Baseline results** is at :<br>
+- **Gradient Boosting Machine Baseline results** are at :<br>
 ["tuningGBM_Baseline.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/tuningGBM_Baseline.ipynb) <br>:
 This jupyter notebook can be used for training and hyperparameter tuning GBM classifier on HB-34.xls dataset without any preprocessing. It can then be used for testing the trained GBM classifier on BID-18.xlsx without any preprocessing done on it.
 
-- **Extreme Gradient Boosting Baseline results** is at :<br>
+- **Extreme Gradient Boosting Baseline results** are at :<br>
 ["tuningXGB_B.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/tuningXGB_B.ipynb) <br>:
 This jupyter notebook can be used for training and hyperparameter tuning GBM classifier on HB-34.xls dataset without any preprocessing. It can then be used for testing the trained GBM classifier on BID-18.xlsx without any preprocessing done on it.
 
+## RBHS: Robust principal component analysis-based prediction of protein-protein interaction hot spots
+- **Codes for RBHS pipeline** are at :<br>
+["reading_hotspot2Data_v4.m"](https://github.com/Divya1205/RBHS_Sitani/blob/master/reading_hotspot2Data_v4.m) <br>:
+This matlab file is used to generate data for all the classifiers implemented in the jupyter notebooks.
+- **Codes for RPCA** are at :<br>
+["robustPCA_v3.m"](https://github.com/Divya1205/RBHS_Sitani/blob/master/robustPCA_v3.m) <br>:
+This matlab file contains the function to implement robust principal component Analysis (RPCA).
+
 
 ## Results for RBHS+classifiers
+
+- **Random Forests Classifier results** are at :<br>
+["RandomForestClassifier.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/RandomForestClassifier.ipynb) <br>:
+This jupyter notebook can be used for training and hyperparameter tuning Random forest classifier on HB-34.xls dataset with RBHS applied to it. It can then be used for testing the tuned random forest classifier on BID-18.xlsx with RBHS applied to it.
+
+- **Support Vector Machine results** are at :<br>
+["gridsearchSVM.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/gridsearchSVM.ipynb) <br>:
+This jupyter notebook can be used for training and hyperparameter tuning SVM classifier on HB-34.xls dataset with RBHS applied to it. It can then be used for testing the hyperparameter-tuned SVM classifier on BID-18.xlsx with RBHS applied to it.
+
+- **Gradient Boosting Machine results** are at :<br>
+["tuningGBM.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/tuningGBM.ipynb) <br>:
+This jupyter notebook can be used for training and hyperparameter tuning GBM classifier on HB-34.xls dataset with RBHS applied to it. It can then be used for testing the trained GBM classifier on BID-18.xlsx with RBHS applied to it.
+
+- **Extreme Gradient Boosting results** are at :<br>
+["tuningXGB.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/tuningXGB.ipynb) <br>:
+This jupyter notebook can be used for training and hyperparameter tuning XGBoost classifier on HB-34.xls dataset with RBHS applied to it. It can then be used for testing the trained XGBoost classifier on BID-18.xlsx with RBHS applied to it.
+
+
   
 ## Generating Plots
+- **Plotting of precision-recall curves for all algorithms can be done** using :<br>
+["plot_curves_prec_rec.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/plot_curves_prec_rec.ipynb) 
+
+
+- **Plotting of ROC curves for all algorithms can be done** using :<br>
+["plot_curves_roc.ipynb"](https://github.com/Divya1205/RBHS_Sitani/blob/master/plot_curves_roc.ipynb)
 
 
 
-## Recommended software:
+
+
+
+
