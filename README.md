@@ -95,7 +95,7 @@ version = {1.0.0},
 year = {2023}
 }
 ```
-If you would like to read and cite the publication RBHS: https://doi.org/10.1002/prot.26047, a robust principal component analysis based method to predict preotein-protein interaction hot spots:
+If you would like to read and cite the publication RBHS: https://doi.org/10.1002/prot.26047, a robust principal component analysis based method to predict protein-protein interaction hot spots:
 ```
 @article{sitani2021robust,
   title={Robust principal component analysis-based prediction of protein-protein interaction hot spots},
